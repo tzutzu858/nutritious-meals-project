@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">營養師開菜單</string>
+    <string name="title_home">首頁</string>
+    <string name="title_nutrition">菜單</string>
+    <string name="title_history">歷史</string>
+    <string name="title_health">健康</string>
+    <string name="title_connection">聯絡</string>
+    <string name="title_test">測試label</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

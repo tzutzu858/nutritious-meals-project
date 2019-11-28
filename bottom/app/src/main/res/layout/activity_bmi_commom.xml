@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_health2"
+    tools:context=".BmiCommomActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:text="     BMI 小常識"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="身體質量指數 ( Body Mass Index 簡稱 BMI )"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="身體質量指數 ＝ 體重 ( 公斤 ) 除以身高 ( 公尺 ) 的平方 ( BMI ＝ Kg/m2 )"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="人體健康最理想的數值被世界衛生組織認定為：22"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="人的標準體重的參考範圍可以根據BMI的正常範圍(18.5 ~ 24)推算出來： kg = BMI x m2"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imgView1"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@mipmap/bmi_standard" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/btnBack2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/gradual3"
+                android:text="上一頁"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnHome2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/gradual3"
+                android:text="首頁"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/knowledge" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

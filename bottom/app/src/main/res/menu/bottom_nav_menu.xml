@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/menu"
+        android:title="@string/title_nutrition" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/history"
+        android:title="@string/title_history" />
+
+    <item
+        android:id="@+id/testtest1"
+        android:icon="@drawable/health"
+        android:title="@string/title_health" />
+
+    <item
+        android:id="@+id/connection"
+        android:icon="@drawable/connection"
+        android:title="@string/title_connection" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/home"
+        android:title="@string/title_home" />
+
+    <!--    title是顯示icon下的文字-->
+
+
+</menu>

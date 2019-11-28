@@ -89,6 +89,14 @@
                 android:text="首頁"
                 android:textSize="18sp"
                 android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Button"
+                android:visibility="gone" />
         </LinearLayout>
 
         <ImageView

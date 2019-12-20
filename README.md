@@ -6,4 +6,4 @@
 <img src="https://github.com/tzutzu858/school_project/blob/master/1.jpg" width="500" ><br /><br /><br />
 
 <b><p align="center">成果展示</b>
-<p align="center"><img src="https://github.com/tzutzu858/school_project/blob/master/menu.gif" width="190" >
+<p align="center"><img src="https://github.com/tzutzu858/school_project/blob/master/healthyMenu.gif" width="190" >
